@@ -57,7 +57,7 @@ while True:
         	cv2.putText(frame,"Are you Sleepy?",(20,400),
         		cv2.FONT_HERSHEY_SIMPLEX,2,(0,0,255),4)
         	print("Drowsy")
-        print(EAR)
+        
 
     cv2.imshow("Are you Sleepy", frame)
 
